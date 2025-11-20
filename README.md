@@ -1,15 +1,15 @@
-🚌 TTC Transit Delay Classification with Real-Time Data Insights
-📘 Overview
+TTC Transit Delay Classification with Real-Time Data Insights
+Overview
 
 TTC Transit Delay Classification is a machine learning project designed to predict whether a bus will arrive on time or be delayed, based on real-time operational and contextual data.
 The project aims to improve transit reliability and provide actionable insights using advanced classification techniques.
 After testing multiple models, the Random Forest Classifier delivered the most accurate and stable results.
 
-🎯 Objective
+Objective
 
 To classify bus trips as On-Time or Delayed using features derived from schedule data, direction, route, and timing—helping in better operational decision-making and transit management.
 
-🧠 Machine Learning Workflow
+Machine Learning Workflow
 1. Data Preprocessing
 
 Cleaned and standardized dataset
@@ -46,7 +46,7 @@ Logistic Regression
 
 Decision Tree
 
-Random Forest ✅ (Best Model)
+Random Forest (Best Model)
 
 Gradient Boosting
 
@@ -104,18 +104,18 @@ TTC-Transit-Delay-Classification-with-Real-Time-Data-Insights/
 └── images/
     └── feature_importance.png
 
-🚀 How to Run the Project
-1️⃣ Clone the Repository
+How to Run the Project
+1️)Clone the Repository
 git clone https://github.com/karthikpappala/TTC-Transit-Delay-Classification-with-Real-Time-Data-Insights.git
 cd TTC-Transit-Delay-Classification-with-Real-Time-Data-Insights
 
-2️⃣ Install Dependencies
+2️)Install Dependencies
 pip install -r requirements.txt
 
-3️⃣ Run the Streamlit App
+3️)Run the Streamlit App
 streamlit run app.py
 
-📊 Results
+Results
 
 Best Model: Random Forest
 
@@ -126,7 +126,7 @@ Most Important Feature: Min Gap
 
 Insight: Buses with higher Min Gap values have greater delay probability.
 
-🔮 Future Enhancements
+Future Enhancements
 
 Integration with real-time GPS and traffic data
 
